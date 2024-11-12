@@ -3,7 +3,7 @@ New-localGroup -Name "Trabajadores"
 New-LocalGroup -Name "Responsables"
 
 for ($i=1; $i -le 5; $i++){
-New-LocalUser -Name "Trabajador$i" -AccountExpires "12/11/2024"
+New-LocalUser -Name "Trabajador$i" -AccountExpires "12/11/2025"
 Add-LocalGroupMember -Group "Trabajadores" -Member "Trabajador$i"
 }
 
