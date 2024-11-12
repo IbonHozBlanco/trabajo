@@ -1,0 +1,20 @@
+PD: Logearse con Alum1
+pwd
+/home/alum1
+touch listado.txt prueba.txt
+ls
+
+PD: Logearse con alum2
+pwd
+/home/alum2
+touch docum.txt
+ls
+
+PD: Logearse con usuadm
+pwd
+/home/usuadm
+touch notas
+mkdir compartir
+touch compartir/ejercicios.txt
+ls
+ls compartir
